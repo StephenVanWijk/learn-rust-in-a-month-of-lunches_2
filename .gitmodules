@@ -1,3 +1,4 @@
 [submodule "chapter-nine"]
     path = chapter-nine
-    url = https://github.com/rust-project/chapter-nine.git
+
+    url = https://github.com/StephenVanWijk/learn-rust-in-a-month-of-lunches_2
