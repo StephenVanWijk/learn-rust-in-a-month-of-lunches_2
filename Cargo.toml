@@ -1,0 +1,13 @@
+[package]
+name = "learn-rust-in-a-month-of-lunches"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# This is the crucial part: Define the workspace
+[workspace]
+members = [
+    ".",             # This includes the package at the root (learn-rust-in-a-month-of-lunches itself)
+    "chapter-nine",  # This includes your 'chapter-nine' sub-project
+    # Add other chapter folders here as you create them, e.g., "chapter-ten", "chapter-eleven"
+]
